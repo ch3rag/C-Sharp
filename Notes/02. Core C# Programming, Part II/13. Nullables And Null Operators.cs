@@ -64,7 +64,11 @@ namespace Notes {
             }
 
             // The Null Conditional Operator
+			// The expression A?.B evaluates to B if the left operand (A) is non-null; otherwise
+			// it evaluates to null.
             // THIS OPERATOR SIMPLIFIES IF ELSE CHECK ON REFERENCE VARIBLE
+			// SHORT WAY OF WRITING
+			// A == null ? null : A.B
             int[] nums = null;
 
             // PRINTING LENGTH OF ARRAY
