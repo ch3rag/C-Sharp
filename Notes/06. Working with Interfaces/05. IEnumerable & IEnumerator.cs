@@ -79,7 +79,7 @@ namespace Experiment {
                 }
             }
 
-            // ENUMERABLE TYPES CAN BE TRAVERSED USING FOREACH LOOP
+            // "ENUMERABLE" TYPES CAN BE TRAVERSED USING FOREACH LOOP
             foreach (Car c in myGarage) {
                 c.Print();
             }
