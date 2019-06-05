@@ -62,8 +62,8 @@ namespace Experiment {
             // bool Contains()
             Console.WriteLine(persons.Contains(p1));     // true       
             
-            // ExpectWidth(IEnumerable <T> col)
-            // Remove all the items from the current set that are in the passes collection
+            // ExpectWith(IEnumerable <T> col)
+            // Remove all the items from the current set that are in the passed collection
             persons.ExceptWith(new Person[] { p1, p2, new Person(2, "Zippy", 23) });        // removes Ryan and Zack
             PrintSortedSet<Person>(persons);
             
