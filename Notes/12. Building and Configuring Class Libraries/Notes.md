@@ -234,6 +234,25 @@ It is possible to build a configuration file for a  client that instructs the CL
 
 ---
 
+### the codeBase Element
+
+Application configuration files can also specify codebases. The <codeBase> element can be used to instruct the CLR to probe for dependent assemblies located at arbitrary locations (such as network endpoints or an arbitrary machine path outside a client’s application directory).
+
+If the value assigned to a <codeBase> element is located on a remote machine, the assembly will be downloaded on demand to a specific directory in the GAC termed the **download cache**.
+```xml
+<configuration>
+     <runtime>
+        <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+            <dependentAssembly>
+                <assemblyIdentity name="CarLibrary" publicKeyToken="33A2BC294331E8B9"
+culture="neutral"/>
+                <codeBase version="2.0.0.0" href="file:///C:/MyAsms/CarLibrary.dll" />
+            </dependentAssembly>
+        </assemblyBinding>
+     </runtime>
+</configuration>
+```
+
 #### Versions
 
 A .NET version number is composed of the four parts 
@@ -246,8 +265,48 @@ While specifying a version number is entirely up to you, you can instruct Visual
 // Valid values for each part of the version number are between 0 and 65535.
 [assembly: AssemblyVersion("1.0.*")]
 ```
+---
 
+### System.Configuration Namespace
 
+The System.Configuration namespace provides a small set of types you can use to read custom data from a client’s *.config file. These custom settings must be contained within the scope of an <appSettings> element. The <appSettings> element contains any number of <add> elements that define key-value pairs to be obtained programmatically.
+
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7" />
+    </startup>
+    <!-- Custom App settings -->
+    <appSettings>
+        <add key="TextColor" value="Green" />
+        <add key="RepeatCount" value="8" />
+    </appSettings>
+</configuration>
+```
+
+```Csharp
+using System;
+using System.Configuration;
+
+namespace Test {
+    public class Program {
+        public static void Main(string[] args) {
+            AppSettingsReader asr = new AppSettingsReader();
+            int numOfTimes = (int)asr.GetValue("RepeatCount", typeof(int));
+            string textColor = (string)asr.GetValue("TextColor", typeof(string));
+
+            Console.ForegroundColor = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), textColor);
+
+            for (int i = 0; i < numOfTimes; i++) {
+                Console.WriteLine("Hey");
+            }
+        }
+    }
+}
+```
+
+---
 
 
 
