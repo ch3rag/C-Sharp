@@ -42,6 +42,8 @@
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 // System.Threading.Thread Class
+
+// Useful Static Members
 // CurrentContext
 // This read-only property returns the context in which the thread is currently running.
 
@@ -53,3 +55,40 @@
 
 // Sleep() 
 // This method suspends the current thread for a specified time
+
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+// Instance-Level Members of the Thread Type
+
+// IsAlive 
+// Returns a Boolean that indicates whether this thread has been started (and has not yet terminated or aborted).
+
+// IsBackground 
+// Gets or sets a value indicating whether this thread is a “background thread”.
+
+// Name 
+// Allows you to establish a friendly text name of the thread.
+
+// Priority
+// Gets or sets the priority of a thread, which may be assigned a value from the ThreadPriority enumeration.
+
+// ThreadState
+// Gets the state of this thread, which may be assigned a value from the ThreadState enumeration.
+
+// Abort() 
+// Instructs the CLR to terminate the thread as soon as possible.
+
+// Interrupt() 
+// Interrupts (e.g., wakes) the current thread from a suitable wait period.
+
+// Join() 
+// Blocks the calling thread until the specified thread (the one on which Join() is called) exits.
+
+// Resume()
+// Resumes a thread that has been previously suspended.
+
+// Start()
+// Instructs the CLR to execute the thread ASAP.
+
+// Suspend()
+// Suspends the thread. If the thread is already suspended, a call to Suspend() has no effect.
