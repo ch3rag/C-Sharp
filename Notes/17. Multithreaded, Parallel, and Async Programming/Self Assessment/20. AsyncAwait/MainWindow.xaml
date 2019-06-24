@@ -1,0 +1,13 @@
+<Window x:Class="AsyncAwait.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"></RowDefinition>
+            <RowDefinition Height="50*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Name="cmdOK" Click="cmdOK_Click" Height="50" Width="100" FontSize="20">Do Task</Button>
+        <Label Name="lblResult" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25">Result Will Be Displayed Here</Label>
+    </Grid>
+</Window>
