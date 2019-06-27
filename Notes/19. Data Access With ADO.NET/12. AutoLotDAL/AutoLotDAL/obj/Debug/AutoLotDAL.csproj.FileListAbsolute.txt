@@ -1,0 +1,5 @@
+c:\users\chirag\documents\visual studio 2012\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.dll
+c:\users\chirag\documents\visual studio 2012\Projects\AutoLotDAL\AutoLotDAL\bin\Debug\AutoLotDAL.pdb
+c:\users\chirag\documents\visual studio 2012\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.csprojResolveAssemblyReference.cache
+c:\users\chirag\documents\visual studio 2012\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.dll
+c:\users\chirag\documents\visual studio 2012\Projects\AutoLotDAL\AutoLotDAL\obj\Debug\AutoLotDAL.pdb
