@@ -6,3 +6,11 @@ c:\users\chirag\documents\visual studio 2012\Projects\AutoLotDAL\AutoLotClient\b
 c:\users\chirag\documents\visual studio 2012\Projects\AutoLotDAL\AutoLotClient\obj\Debug\AutoLotClient.csprojResolveAssemblyReference.cache
 c:\users\chirag\documents\visual studio 2012\Projects\AutoLotDAL\AutoLotClient\obj\Debug\AutoLotClient.exe
 c:\users\chirag\documents\visual studio 2012\Projects\AutoLotDAL\AutoLotClient\obj\Debug\AutoLotClient.pdb
+D:\Study\Github\C#\c-sharp\Notes\19. Data Access With ADO.NET\12. AutoLotDAL\AutoLotClient\bin\Debug\AutoLotClient.exe.config
+D:\Study\Github\C#\c-sharp\Notes\19. Data Access With ADO.NET\12. AutoLotDAL\AutoLotClient\obj\Debug\AutoLotClient.exe
+D:\Study\Github\C#\c-sharp\Notes\19. Data Access With ADO.NET\12. AutoLotDAL\AutoLotClient\obj\Debug\AutoLotClient.pdb
+D:\Study\Github\C#\c-sharp\Notes\19. Data Access With ADO.NET\12. AutoLotDAL\AutoLotClient\bin\Debug\AutoLotClient.exe
+D:\Study\Github\C#\c-sharp\Notes\19. Data Access With ADO.NET\12. AutoLotDAL\AutoLotClient\bin\Debug\AutoLotClient.pdb
+D:\Study\Github\C#\c-sharp\Notes\19. Data Access With ADO.NET\12. AutoLotDAL\AutoLotClient\bin\Debug\AutoLotDAL.dll
+D:\Study\Github\C#\c-sharp\Notes\19. Data Access With ADO.NET\12. AutoLotDAL\AutoLotClient\bin\Debug\AutoLotDAL.pdb
+D:\Study\Github\C#\c-sharp\Notes\19. Data Access With ADO.NET\12. AutoLotDAL\AutoLotClient\obj\Debug\AutoLotClient.csprojResolveAssemblyReference.cache

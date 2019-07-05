@@ -1,0 +1,8 @@
+C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\AutoLot\AutoLotClient\bin\Debug\AutoLotClient.exe.config
+C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\AutoLot\AutoLotClient\bin\Debug\AutoLotClient.exe
+C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\AutoLot\AutoLotClient\bin\Debug\AutoLotClient.pdb
+C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\AutoLot\AutoLotClient\bin\Debug\AutoLot.dll
+C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\AutoLot\AutoLotClient\bin\Debug\AutoLot.pdb
+C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\AutoLot\AutoLotClient\obj\Debug\AutoLotClient.csprojResolveAssemblyReference.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\AutoLot\AutoLotClient\obj\Debug\AutoLotClient.exe
+C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\AutoLot\AutoLotClient\obj\Debug\AutoLotClient.pdb
