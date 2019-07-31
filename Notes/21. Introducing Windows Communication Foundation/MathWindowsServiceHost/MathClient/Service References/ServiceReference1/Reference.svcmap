@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="875ba2b0-779f-4622-b158-d51b2cca64e7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/MathServiceLibrary" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MathService.wsdl" MetadataType="Wsdl" ID="86fed5fc-df0b-4e9c-83a2-ddb0dcdd9a21" SourceId="1" SourceUrl="http://localhost:8080/MathServiceLibrary?wsdl" />
+    <MetadataFile FileName="MathServiceLibrary.xsd" MetadataType="Schema" ID="e5d6dc38-a9e1-4b29-a19e-3bdc44df2519" SourceId="1" SourceUrl="http://localhost:8080/MathServiceLibrary?xsd=xsd0" />
+    <MetadataFile FileName="MathServiceLibrary.wsdl" MetadataType="Wsdl" ID="fcb17134-87d4-458d-99e0-210a49efc167" SourceId="1" SourceUrl="http://localhost:8080/MathServiceLibrary?wsdl=wsdl0" />
+    <MetadataFile FileName="MathServiceLibrary.disco" MetadataType="Disco" ID="fb588387-7094-40dd-8475-0b3068ae59c8" SourceId="1" SourceUrl="http://localhost:8080/MathServiceLibrary?disco" />
+    <MetadataFile FileName="MathServiceLibrary1.xsd" MetadataType="Schema" ID="3062cf77-e8de-4223-8aa4-b684b1eee2d0" SourceId="1" SourceUrl="http://localhost:8080/MathServiceLibrary?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicEightBallServiceLib", "MagicEightBallServiceLib\MagicEightBallServiceLib.csproj", "{7AF45F8E-67A7-4017-A2F1-A049C641A033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicEightBallServiceHost", "MagicEightBallServiceHost\MagicEightBallServiceHost.csproj", "{0F149A06-F065-4484-8A4D-F04D1828EAD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicEightBallServiceClient", "MagicEightBallServiceClient\MagicEightBallServiceClient.csproj", "{DC0D3898-414C-4E99-B9AE-61A063F96A30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF45F8E-67A7-4017-A2F1-A049C641A033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF45F8E-67A7-4017-A2F1-A049C641A033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF45F8E-67A7-4017-A2F1-A049C641A033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF45F8E-67A7-4017-A2F1-A049C641A033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F149A06-F065-4484-8A4D-F04D1828EAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F149A06-F065-4484-8A4D-F04D1828EAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F149A06-F065-4484-8A4D-F04D1828EAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F149A06-F065-4484-8A4D-F04D1828EAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0D3898-414C-4E99-B9AE-61A063F96A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0D3898-414C-4E99-B9AE-61A063F96A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0D3898-414C-4E99-B9AE-61A063F96A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0D3898-414C-4E99-B9AE-61A063F96A30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

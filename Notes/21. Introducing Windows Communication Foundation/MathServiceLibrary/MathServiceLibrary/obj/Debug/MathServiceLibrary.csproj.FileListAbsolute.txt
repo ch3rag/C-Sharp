@@ -1,0 +1,6 @@
+c:\users\chirag\documents\visual studio 2012\Projects\MathServiceLibrary\MathServiceLibrary\obj\Debug\MathServiceLibrary.csprojResolveAssemblyReference.cache
+c:\users\chirag\documents\visual studio 2012\Projects\MathServiceLibrary\MathServiceLibrary\bin\Debug\MathServiceLibrary.dll.config
+c:\users\chirag\documents\visual studio 2012\Projects\MathServiceLibrary\MathServiceLibrary\bin\Debug\MathServiceLibrary.dll
+c:\users\chirag\documents\visual studio 2012\Projects\MathServiceLibrary\MathServiceLibrary\bin\Debug\MathServiceLibrary.pdb
+c:\users\chirag\documents\visual studio 2012\Projects\MathServiceLibrary\MathServiceLibrary\obj\Debug\MathServiceLibrary.dll
+c:\users\chirag\documents\visual studio 2012\Projects\MathServiceLibrary\MathServiceLibrary\obj\Debug\MathServiceLibrary.pdb

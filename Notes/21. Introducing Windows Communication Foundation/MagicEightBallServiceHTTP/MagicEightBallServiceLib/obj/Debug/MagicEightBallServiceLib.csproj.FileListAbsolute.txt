@@ -1,0 +1,5 @@
+C:\Users\CHIRAG\documents\visual studio 2012\Projects\MagicEightBallServiceHTTP\MagicEightBallServiceLib\bin\Debug\MagicEightBallServiceLib.dll
+C:\Users\CHIRAG\documents\visual studio 2012\Projects\MagicEightBallServiceHTTP\MagicEightBallServiceLib\bin\Debug\MagicEightBallServiceLib.pdb
+C:\Users\CHIRAG\documents\visual studio 2012\Projects\MagicEightBallServiceHTTP\MagicEightBallServiceLib\obj\Debug\MagicEightBallServiceLib.csprojResolveAssemblyReference.cache
+C:\Users\CHIRAG\documents\visual studio 2012\Projects\MagicEightBallServiceHTTP\MagicEightBallServiceLib\obj\Debug\MagicEightBallServiceLib.dll
+C:\Users\CHIRAG\documents\visual studio 2012\Projects\MagicEightBallServiceHTTP\MagicEightBallServiceLib\obj\Debug\MagicEightBallServiceLib.pdb

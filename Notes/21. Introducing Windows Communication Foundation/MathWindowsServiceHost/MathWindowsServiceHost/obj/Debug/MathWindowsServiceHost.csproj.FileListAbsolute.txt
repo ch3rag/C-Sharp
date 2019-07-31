@@ -1,0 +1,10 @@
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.exe.config
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.exe
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.pdb
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathServiceLibrary.dll
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathServiceLibrary.pdb
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.csprojResolveAssemblyReference.cache
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.ProjectInstaller.resources
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.csproj.GenerateResource.Cache
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.exe
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.pdb

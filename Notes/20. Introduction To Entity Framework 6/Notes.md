@@ -175,3 +175,154 @@ modelBuilder.Entity<Inventory>()
 modelBuilder.Entity<Inventory>()
     .Ignore(p => p.Make);
 ```
+### Relationships
+#### One To Zero Or One
+The table with zero-or-one relationship(Owner) must have its foreign key equal to primary key of base table(Inventory)
+```CSharp
+
+public class Owner {
+    public int Id { get; set; }
+    public string Name { get; set; }
+    // Navigation Property
+    public Inventory Car { get; set; }
+}
+
+public class Inventory {
+    ...
+    // Navigation Property
+    public Owner Owner { get; set; }
+}
+...
+protected override void OnModelCreating(DbModelBuilder modelBuilder) {
+    modelBuilder.Entity<Owner>()
+        .HasRequired(e => e.Car)
+        .WithOptional(e => e.Owner);
+    // an owner must have car but a car may have an owner
+}
+```
+
+#### One To One
+In one to one relationship we must add owner for every car we add before calling SaveChanges()
+```CSharp
+modelBuilder.Entity<Owner>()
+    .HasRequired(e => e.Car)
+    .WithRequiredPrincipal(e => e.Owner);
+```
+
+#### One To Many
+```CSharp
+public partial class Inventory {
+    ...
+    // Navigation Property
+    public virtual Garage Garage { get; set; }
+}
+
+public class Garage {
+    ...
+    // Navigation Property
+    public ICollection<Inventory> Cars { get; set; }
+}
+...
+protected override void OnModelCreating(DbModelBuilder modelBuilder) {
+    modelBuilder.Entity<Inventory>()
+        .HasRequired(e => e.Garage)
+        .WithMany(e => e.Cars)
+        .HasForeignKey(e => e.GarageId)
+        .WillCascadeOnDelete(false);  
+}
+
+```
+
+### Many To Many
+```CSharp
+public partial class Inventory {
+    ...
+    // Navigation Property
+    public virtual ICollection<Configuration> Configurations { get; set; }
+}
+
+public class Configuration {
+    public int Id { get; set; }
+    public EngineType EngineType { get; set; }
+    public RadioType RadioType { get; set; }
+    // Navigation Property
+    public ICollection<Inventory> Cars { get; set; }
+}
+...
+protected override void OnModelCreating(DbModelBuilder modelBuilder) {
+    modelBuilder.Entity<Inventory>()
+        .HasMany(e => e.Configurations)
+        .WithMany(e => e.Cars); 
+}
+
+```
+---
+### Entity States
+![States](https://github.com/iambharatsingh/C-Sharp/blob/master/Notes/20.%20Introduction%20To%20Entity%20Framework%206/03.%20Entity%20States.PNG?raw=true)
+
+#### Data Annotations In System.ComponentModel.DataAnnotations.Schema
+![Annotations](https://github.com/iambharatsingh/C-Sharp/blob/master/Notes/20.%20Introduction%20To%20Entity%20Framework%206/04.%20Data%20Annotations.PNG?raw=true)
+
+---
+
+### Seeding Database
+A powerful EF feature is the ability to make sure the database matches the model as well as initializes the database with data.  There are two classes that you can derive from to turn this feature on:  
+* **DropCreateDatabaseIfModelChanges\<TContext>** 
+* **DropCreateDatabaseAlways\<TContext>**
+
+
+
+
+```CSharp
+using System.Data.Entity.Migrations;
+public class AutoLotInit : DropCreateDatabaseAlways <AutoLotEntities> {
+    protected override void Seed(AutoLotEntities context) {
+        List<Inventory> cars = new List<Inventory>() {
+            new Inventory() { Make = "Ford", PetName = "Zippy", Color = "Black" },
+            new Inventory() { Make = "Ferrari", PetName = "Tim", Color = "Blue" },
+            new Inventory () { Make = "BMW", PetName = "Carl", Color = "Yellow" }
+        };
+
+        context.Cars.AddOrUpdate(x => new { x.PetName, x.Make, x.Color }, cars.ToArray());
+    }
+}
+
+...
+
+using System.Data.Entity;
+public class Program {
+    public static void Main(string[] args) {
+        // Initialize
+        Database.SetInitializer(new AutoLotInit());
+
+        AutoLotEntities context = new AutoLotEntities();
+        context.Cars.ToList().ForEach(x => Console.WriteLine(new { x.CarId, x.Make, x.PetName, x.Color }.ToString()));
+    }
+}
+
+```
+
+---
+## EF Migrations
+Entity Framework introduced a migration tool that automatically updates the database schema when your model changes without losing any existing data or other database objects.
+
+#### Enable Migrations
+open the Package Manager Console (the command-line tool for managing NuGet packages) by selecting View ➤ Other Windows ➤ Package Manager Console. Now enter enable-migrations.
+
+```bash
+PM> enable-migrations
+```
+
+If Database already exists then enabling migrations will create a new migration corresponding to existing table in Project ➤ Migrations folder
+
+#### Add Migration
+Update the model according to your needs and create a new migration using 
+```bash
+PM> Add-migration MigrationName
+```
+#### Update Database 
+To push the model changes onto the database use command
+```bash
+PM> update-database
+```
+

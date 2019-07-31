@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.exe
+   logfile = C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.InstallLog
+Installing service MathService...
+Service MathService has been successfully installed.
+Creating EventLog source MathService in log Application...
+Committing assembly 'C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.exe
+   logfile = C:\Users\CHIRAG\Documents\Visual Studio 2012\Projects\MathWindowsServiceHost\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.InstallLog

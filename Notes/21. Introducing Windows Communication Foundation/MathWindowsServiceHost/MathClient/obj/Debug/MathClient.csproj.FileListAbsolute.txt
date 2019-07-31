@@ -1,0 +1,6 @@
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathClient\bin\Debug\MathClient.exe.config
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathClient\bin\Debug\MathClient.exe
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathClient\bin\Debug\MathClient.pdb
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathClient\obj\Debug\MathClient.csprojResolveAssemblyReference.cache
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathClient\obj\Debug\MathClient.exe
+c:\users\chirag\documents\visual studio 2012\Projects\MathWindowsServiceHost\MathClient\obj\Debug\MathClient.pdb

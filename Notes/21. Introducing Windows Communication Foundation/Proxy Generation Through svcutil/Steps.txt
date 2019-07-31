@@ -1,0 +1,7 @@
+MEX Must Be Enabled!
+
+svcutil [ServiceURI] -out:ProxyClass.cs -config:App.Config
+
+Example: 
+
+svcutil http://localhost:8080/MyMathService/ -out:MyProxy.cs -config:App.config
