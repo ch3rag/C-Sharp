@@ -1,0 +1,28 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:CorLib="clr-namespace:System;assembly=mscorlib">
+  <Grid>  
+    <StackPanel>
+      <!-- Accessing Static Members -->
+      <Label Content="{x:Static CorLib:Environment.OSVersion}"></Label>
+      <Label Content="{x:Static CorLib:Environment.ProcessorCount}"></Label>
+      
+      <!-- Using XAML Equivalent Of typeof -->
+      <Label Content="{x:Type Button}"></Label>
+      <Label Content="{x:Type CorLib:Boolean}"></Label>
+      
+      <!-- Fill List Box With Array Of Strings -->
+      <ListBox Width="200" Height="50">
+        <ListBox.ItemsSource>
+          <x:Array Type="CorLib:String">
+            <CorLib:String>Grand Theft Auto</CorLib:String>
+            <CorLib:String>Elders Scroll Oblivion</CorLib:String>
+            <CorLib:String>Call Of Duty</CorLib:String>
+          </x:Array>
+        </ListBox.ItemsSource>
+      </ListBox>
+    </StackPanel>
+  </Grid>
+</Page>
+<!--<Element PropertyToSet = "{MarkUpExtension}"/>-->

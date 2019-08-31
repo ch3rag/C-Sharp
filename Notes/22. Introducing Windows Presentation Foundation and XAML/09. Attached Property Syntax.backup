@@ -1,0 +1,15 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Grid>  
+    <Canvas Height="200" Width="200" Background="LightBlue">
+      <Ellipse Canvas.Top="40" Canvas.Left="20" Height="20" Width="20" Fill="DarkBlue"></Ellipse>
+    </Canvas>
+  </Grid>
+</Page>
+
+<!--
+<ParentElement>
+  <ChildElement ParentElement.PropertyOnParent = "Value">
+</ParentElement>
+-->

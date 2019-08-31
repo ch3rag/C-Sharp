@@ -1,0 +1,28 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  Title="Fun With Panels" Height="245" Width="325">
+  
+   <!-- LEFT TO RIGHT -->
+  <!-- "<WrapPanel Background="LightSteelBlue"> -->
+  
+  <WrapPanel Background="LightSteelBlue" Orientation="Vertical"> <!-- TOP TO BOTTOM -->
+  
+   <!-- 
+   You can declare a WrapPanel (as well as some other panel types) by specifying ItemWidth and ItemHeight values,
+   which control the default size of each item.
+   <WrapPanel Background="LightSteelBlue" Orientation ="Horizontal" ItemWidth ="200" ItemHeight ="30">
+   A WrapPanel will be a subelement to another panel type, allowing a small area of the window to 
+   wrap its content when resized (e.g., a ToolBar control).
+   -->
+   
+    <Label x:Name="lblInstructions" Width="328" Height="27" FontSize="15" Content="Enter Information"></Label>
+    <Label x:Name="lblMake" Content="Make"></Label>
+    <TextBox x:Name="txtMake" Width="193" Height="25"></TextBox>
+    <Label x:Name="lblColor" Content="Color"></Label>
+    <TextBox x:Name="txtColor" Width="193" Height="25"></TextBox>
+    <Label x:Name="lblPetName" Content="PetName"></Label>
+    <TextBox x:Name="txtPetName" Width="193" Height="25"></TextBox>
+    <Button x:Name="btnOk" Width="80" Content="OK"></Button>
+  </WrapPanel>
+</Page>

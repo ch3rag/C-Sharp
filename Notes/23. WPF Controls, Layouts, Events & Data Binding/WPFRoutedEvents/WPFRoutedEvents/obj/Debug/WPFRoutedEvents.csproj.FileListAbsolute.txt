@@ -1,0 +1,15 @@
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\bin\Debug\WPFRoutedEvents.exe.config
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\bin\Debug\WPFRoutedEvents.exe
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\bin\Debug\WPFRoutedEvents.pdb
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\WPFRoutedEvents.csprojAssemblyReference.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\MainWindow.g.cs
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\App.g.cs
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\WPFRoutedEvents_MarkupCompile.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\WPFRoutedEvents_MarkupCompile.lref
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\MainWindow.baml
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\WPFRoutedEvents.g.resources
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\WPFRoutedEvents.Properties.Resources.resources
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\WPFRoutedEvents.csproj.GenerateResource.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\WPFRoutedEvents.csproj.CoreCompileInputs.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\WPFRoutedEvents.exe
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\WPFRoutedEvents\WPFRoutedEvents\obj\Debug\WPFRoutedEvents.pdb

@@ -1,0 +1,29 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  Title="Fun With Panels" Width="440" Height="200">
+  <Grid ShowGridLines="True" Background="LightSteelBlue">
+    <Grid.RowDefinitions>
+      <RowDefinition></RowDefinition>
+      <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <Label x:Name="lblInstruction" Grid.Column="0" Grid.Row="0" FontSize="15" Content="Enter The Information"></Label>
+    <Button x:Name="btnOk" Height="30" Width="100" Grid.Column="0" Grid.Row="0" Content="OK"></Button>
+    
+    <Label x:Name="lblMake" Grid.Column="1" Grid.Row="0" Content="Make"></Label>
+    <TextBox x:Name="txtMake" Grid.Column="1" Grid.Row="0" Width="193" Height="25"></TextBox>
+    
+    <Label x:Name="lblColor" Grid.Column="0" Grid.Row="1" Content="Color"></Label>
+    <TextBox x:Name="txtColor" Grid.Column="0" Grid.Row="1" Width="193" Height="25"></TextBox>
+    
+    <Rectangle Fill="LightGreen" Grid.Column="1" Grid.Row="1"></Rectangle>
+    <Label x:Name="lblPetName" Grid.Column="1" Grid.Row="1" Content="PetName"></Label>
+    <TextBox x:Name="txtPetName" Grid.Column="1" Grid.Row="1" Width="193" Height="25"></TextBox>
+    
+    
+  </Grid>
+</Page>

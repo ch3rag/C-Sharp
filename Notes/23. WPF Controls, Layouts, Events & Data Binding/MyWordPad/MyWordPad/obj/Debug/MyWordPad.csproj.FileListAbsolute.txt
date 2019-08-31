@@ -1,0 +1,15 @@
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MyWordPad.csprojAssemblyReference.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MainWindow.g.cs
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\App.g.cs
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MyWordPad_MarkupCompile.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MyWordPad_MarkupCompile.lref
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\bin\Debug\MyWordPad.exe.config
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\bin\Debug\MyWordPad.exe
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\bin\Debug\MyWordPad.pdb
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MainWindow.baml
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MyWordPad.g.resources
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MyWordPad.Properties.Resources.resources
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MyWordPad.csproj.GenerateResource.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MyWordPad.csproj.CoreCompileInputs.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MyWordPad.exe
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\MyWordPad\MyWordPad\obj\Debug\MyWordPad.pdb

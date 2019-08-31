@@ -1,0 +1,13 @@
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\bin\Debug\WpfTestingApplication.exe.config
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\bin\Debug\WpfTestingApplication.exe
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\bin\Debug\WpfTestingApplication.pdb
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\obj\Debug\WpfTestingApplication.csprojResolveAssemblyReference.cache
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\obj\Debug\MainWindow.baml
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\obj\Debug\MainWindow.g.cs
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\obj\Debug\App.g.cs
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\obj\Debug\WpfTestingApplication_MarkupCompile.cache
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\obj\Debug\WpfTestingApplication.g.resources
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\obj\Debug\WpfTestingApplication.Properties.Resources.resources
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\obj\Debug\WpfTestingApplication.csproj.GenerateResource.Cache
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\obj\Debug\WpfTestingApplication.exe
+c:\users\chirag\documents\visual studio 2012\Projects\WpfTestingApplication\WpfTestingApplication\obj\Debug\WpfTestingApplication.pdb
