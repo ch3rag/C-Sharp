@@ -25,7 +25,7 @@ namespace Experiment {
         // Return: Void
         public delegate void NumberHandler(string message);
 
-        // A DELEGATE OBJECT IS REALLY WHAT THAT POINTS TO FUNCTION
+        // AN OBJECT OF THAT DELEGATE TYPE IS REALLY WHAT THAT POINTS TO FUNCTION
         private NumberHandler handler;       // IT POINTS TO NO FUNCTION AT THIS MOMENT
 
         // A REGISTER FUNCTION SO THAT USER CAN REGISTER TO LISTEN TO EVENT RAISED BY NUMBER OBJECT

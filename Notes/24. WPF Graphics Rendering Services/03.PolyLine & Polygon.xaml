@@ -1,0 +1,8 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="300" Width="300" Background="LightSteelBlue">
+    <Polyline Stroke="Red" StrokeThickness="20" StrokeLineJoin="Round" StrokeEndLineCap="Triangle" StrokeStartLineCap="Round" Points="10,10 40,40 10,90 200,50"></Polyline>
+    <Polygon Fill="AliceBlue" StrokeThickness="5" Stroke="Green" StrokeLineJoin="Round" Points="40,117 70,180 10,150"></Polygon>
+  </Canvas>
+</Page>

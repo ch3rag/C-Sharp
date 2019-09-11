@@ -1,0 +1,29 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <StackPanel Orientation="Horizontal" Width="640" Height="480" Background="LightBlue">
+    <Rectangle Height="100" Width="40" Fill="Red">
+      <Rectangle.LayoutTransform>
+        <RotateTransform Angle="45"></RotateTransform>
+      </Rectangle.LayoutTransform>
+    </Rectangle>
+    <Button Content="Click Me" Height="50" Width="100">
+      <Button.LayoutTransform>
+        <SkewTransform AngleX="20" AngleY="20"></SkewTransform>
+      </Button.LayoutTransform>
+    </Button>
+    <Ellipse Fill="Blue" Width="5" Height="5">
+      <Ellipse.LayoutTransform>
+        <ScaleTransform ScaleX="20" ScaleY="20"></ScaleTransform>
+      </Ellipse.LayoutTransform>
+    </Ellipse>
+    <TextBox Text="Me Too!" Width="50" Height="40">
+      <TextBox.LayoutTransform>
+        <TransformGroup>
+          <RotateTransform Angle="45"></RotateTransform>
+          <SkewTransform AngleX="5" AngleY="20"></SkewTransform>
+        </TransformGroup>
+      </TextBox.LayoutTransform>
+    </TextBox>
+  </StackPanel>
+</Page>

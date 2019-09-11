@@ -1,0 +1,8 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Width="640" Height="480" Background="LightSteelBlue">
+    <Path  Stroke="Black" StrokeThickness="2" Data="M 100,100 A 50,50 1 1 1 99,99 Z"></Path>
+    <Path  Stroke="Black" StrokeThickness="2" Data="M 100,100 C 200,250 250,100 300,200"></Path>
+  </Canvas>
+</Page>

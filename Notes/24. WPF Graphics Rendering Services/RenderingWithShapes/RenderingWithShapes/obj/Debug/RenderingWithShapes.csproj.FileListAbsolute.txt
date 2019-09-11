@@ -1,0 +1,15 @@
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\bin\Debug\RenderingWithShapes.exe.config
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\bin\Debug\RenderingWithShapes.exe
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\bin\Debug\RenderingWithShapes.pdb
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\RenderingWithShapes.csprojAssemblyReference.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\MainWindow.g.cs
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\App.g.cs
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\RenderingWithShapes_MarkupCompile.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\RenderingWithShapes_MarkupCompile.lref
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\MainWindow.baml
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\RenderingWithShapes.g.resources
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\RenderingWithShapes.Properties.Resources.resources
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\RenderingWithShapes.csproj.GenerateResource.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\RenderingWithShapes.csproj.CoreCompileInputs.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\RenderingWithShapes.exe
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\RenderingWithShapes\RenderingWithShapes\obj\Debug\RenderingWithShapes.pdb

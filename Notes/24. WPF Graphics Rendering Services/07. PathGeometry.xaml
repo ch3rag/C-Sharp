@@ -1,0 +1,19 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Width="640" Height="480" Background="LightSteelBlue">
+    <Path Stroke="Black" StrokeThickness="2">
+        <Path.Data>
+            <PathGeometry>
+                <PathGeometry.Figures>
+                    <PathFigure StartPoint="10,50">
+                        <BezierSegment Point1="100,0" Point2="200,300" Point3="300,100"></BezierSegment>
+                        <LineSegment Point="400,100"></LineSegment>
+                        <ArcSegment Size="50,50" RotationAngle="45" IsLargeArc="True" SweepDirection="Clockwise" Point="200,100"></ArcSegment>
+                    </PathFigure>
+                </PathGeometry.Figures>
+            </PathGeometry>
+        </Path.Data>
+    </Path>
+  </Canvas>
+</Page>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="RenderingWithVisuals.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RenderingWithVisuals"
+        mc:Ignorable="d"
+        Title="Fun With Visual Layer" Height="350" Width="525" Loaded="Window_Loaded">
+    <StackPanel Background="AliceBlue" Name="MyStackPanel">
+        <Image Name="MyImage" Height="110" Width="300"></Image>
+        <local:CustomVisualFrameworkElement></local:CustomVisualFrameworkElement>
+    </StackPanel>
+</Window>

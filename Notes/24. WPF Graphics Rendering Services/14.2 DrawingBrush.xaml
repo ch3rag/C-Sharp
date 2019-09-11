@@ -1,0 +1,34 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Width="200" Height="200">
+    <Canvas.Background>
+      <DrawingBrush>
+        <DrawingBrush.Drawing>
+          <GeometryDrawing>
+            <GeometryDrawing.Geometry>
+              <GeometryGroup>
+                <EllipseGeometry Center="10, 10" RadiusX="50" RadiusY="50"></EllipseGeometry>            
+                <PathGeometry>
+                  <PathFigure>
+                    <BezierSegment Point1="100,0" Point2="10, 10" Point3="10, 20"></BezierSegment>
+                  </PathFigure>
+                </PathGeometry>
+              </GeometryGroup>
+            </GeometryDrawing.Geometry>
+            <GeometryDrawing.Pen>
+              <Pen Brush="Red" Thickness="2"></Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Brush>
+              <LinearGradientBrush StartPoint="0.5, 1" EndPoint="0.5, 0">
+                <GradientStop Offset="0" Color="Red"></GradientStop>
+                <GradientStop Offset="0.5" Color="Cyan"></GradientStop>
+                <GradientStop Offset="1" Color="Purple"></GradientStop>
+              </LinearGradientBrush>
+            </GeometryDrawing.Brush>
+          </GeometryDrawing>
+        </DrawingBrush.Drawing>
+      </DrawingBrush>
+    </Canvas.Background>
+  </Canvas>
+</Page>
