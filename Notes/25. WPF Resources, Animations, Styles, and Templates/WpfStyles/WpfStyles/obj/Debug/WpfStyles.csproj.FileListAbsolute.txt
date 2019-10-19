@@ -1,0 +1,16 @@
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\bin\Debug\WpfStyles.exe.config
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\bin\Debug\WpfStyles.exe
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\bin\Debug\WpfStyles.pdb
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\WpfStyles.csprojAssemblyReference.cache
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\MainWindow.g.cs
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\App.g.cs
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\WpfStyles_MarkupCompile.cache
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\WpfStyles_MarkupCompile.lref
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\App.baml
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\MainWindow.baml
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\WpfStyles.g.resources
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\WpfStyles.Properties.Resources.resources
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\WpfStyles.csproj.GenerateResource.cache
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\WpfStyles.csproj.CoreCompileInputs.cache
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\WpfStyles.exe
+C:\Users\CHIRAG\source\repos\WpfStyles\WpfStyles\obj\Debug\WpfStyles.pdb

@@ -1,0 +1,16 @@
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\bin\Debug\ButtonTemplate.exe.config
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\bin\Debug\ButtonTemplate.exe
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\bin\Debug\ButtonTemplate.pdb
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\ButtonTemplate.csprojAssemblyReference.cache
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\MainWindow.g.cs
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\App.g.cs
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\ButtonTemplate_MarkupCompile.cache
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\ButtonTemplate_MarkupCompile.lref
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\MainWindow.baml
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\ButtonTemplate.g.resources
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\ButtonTemplate.Properties.Resources.resources
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\ButtonTemplate.csproj.GenerateResource.cache
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\ButtonTemplate.csproj.CoreCompileInputs.cache
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\ButtonTemplate.exe
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\ButtonTemplate.pdb
+C:\Users\CHIRAG\source\repos\ButtonTemplate\ButtonTemplate\obj\Debug\App.baml

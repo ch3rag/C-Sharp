@@ -1,0 +1,19 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <StackPanel>
+    <Label Content="Interesting...">
+      <Label.Triggers>
+        <EventTrigger RoutedEvent="Label.Loaded">
+          <EventTrigger.Actions>
+            <BeginStoryboard>
+              <Storyboard TargetProperty="FontSize">
+                <DoubleAnimation From="12" To="100" Duration="0:0:4" RepeatBehavior="Forever"></DoubleAnimation>
+              </Storyboard>
+            </BeginStoryboard>
+          </EventTrigger.Actions>
+        </EventTrigger>
+      </Label.Triggers>
+    </Label>
+  </StackPanel>
+</Page>

@@ -1,0 +1,15 @@
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\bin\Debug\TreesAndTemplateApp.exe.config
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\bin\Debug\TreesAndTemplateApp.exe
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\bin\Debug\TreesAndTemplateApp.pdb
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\TreesAndTemplateApp.csprojAssemblyReference.cache
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\MainWindow.g.cs
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\App.g.cs
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\TreesAndTemplateApp_MarkupCompile.cache
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\TreesAndTemplateApp_MarkupCompile.lref
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\MainWindow.baml
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\TreesAndTemplateApp.g.resources
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\TreesAndTemplateApp.Properties.Resources.resources
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\TreesAndTemplateApp.csproj.GenerateResource.cache
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\TreesAndTemplateApp.csproj.CoreCompileInputs.cache
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\TreesAndTemplateApp.exe
+C:\Users\CHIRAG\source\repos\TreesAndTemplateApp\TreesAndTemplateApp\obj\Debug\TreesAndTemplateApp.pdb

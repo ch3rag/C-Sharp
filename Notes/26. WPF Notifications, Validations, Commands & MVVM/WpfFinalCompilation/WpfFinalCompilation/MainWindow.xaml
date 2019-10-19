@@ -1,0 +1,83 @@
+﻿<Window x:Class="WpfFinalCompilation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfFinalCompilation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" DataContext="{Binding Path=ViewModel, RelativeSource={RelativeSource Self}}">
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBox}">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter Property="Foreground" Value="Black"></Setter>
+                    <Setter Property="Background" Value="Pink"></Setter>
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}"></Setter>
+                </Trigger>
+            </Style.Triggers>
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <DockPanel LastChildFill="True">
+                            <TextBlock Foreground="Red" FontSize="20" Text="!" ToolTip="{Binding ElementName=ControlWithError, Path=AdornedElement.(Validation.Errors)[0].ErrorContent}"></TextBlock>
+                            <Border BorderBrush="Red" BorderThickness="1">
+                                <AdornedElementPlaceholder Name="ControlWithError"></AdornedElementPlaceholder>
+                            </Border>
+                        </DockPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="5, 0, 5, 5" IsSharedSizeScope="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" SharedSizeGroup="CarLabels"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Content="Vehicle"></Label>
+            <ComboBox Name="CmbCars" Grid.Column="1" DisplayMemberPath="PetName" ItemsSource="{Binding Path=Cars}"></ComboBox>
+        </Grid>
+        <Grid Grid.Row="1" x:Name="GrdDetails" DataContext="{Binding ElementName=CmbCars, Path=SelectedItem}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" SharedSizeGroup="CarLabels"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" Content="CarId"></Label>
+            <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Path=Id, ValidatesOnDataErrors=True}"></TextBox>
+            <Label Grid.Column="0" Grid.Row="1" Content="Make"></Label>
+            <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Path=Make, ValidatesOnDataErrors=True}"></TextBox>
+            <Label Grid.Column="0" Grid.Row="2" Content="Color"></Label>
+            <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Path=Color, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True}"></TextBox>
+            <Label Grid.Column="0" Grid.Row="3" Content="PetName"></Label>
+            <TextBox Grid.Column="1" Grid.Row="3" Text="{Binding Path=PetName, ValidatesOnDataErrors=True}"></TextBox>
+            <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4" HorizontalAlignment="Right" Orientation="Horizontal" Margin="0, 5, 0, 5">
+                <Button x:Name="BtnAddCar" Content="Add Car"  Padding="4, 2" Command="{Binding Path=DataContext.AddCarCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding ElementName=CmbCars, Path=ItemsSource}"></Button>
+                <Button x:Name="BtnDeleteCar" Content="Delete Car" Margin="5, 0, 0, 0" Padding="4, 2" Command="{Binding Path=DataContext.DeleteCarCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding ElementName=CmbCars, Path=SelectedItem}"></Button>
+                <Button x:Name="BtnChangeColor" Content="Change Color" Margin="5, 0, 5, 0" Padding="4, 2" Command="{Binding Path=DataContext.ChangeColorCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding ElementName=CmbCars, Path=SelectedItem}"></Button>
+            </StackPanel>
+            <Label Grid.Column="0" Grid.Row="5" Content="IsChanged"></Label>
+            <CheckBox Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" Margin="10, 0, 0, 0" IsEnabled="False" IsChecked="{Binding Path=IsChanged}"></CheckBox>
+            <ListBox Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding ElementName=GrdDetails, Path=(Validation.Errors)}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <ListBox ItemsSource="{Binding Path=ErrorContent}"></ListBox>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+    </Grid>
+</Window>

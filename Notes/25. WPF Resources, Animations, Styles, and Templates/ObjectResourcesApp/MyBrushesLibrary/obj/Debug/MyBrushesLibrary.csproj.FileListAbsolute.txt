@@ -1,0 +1,11 @@
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\bin\Debug\MyBrushesLibrary.dll
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\bin\Debug\MyBrushesLibrary.pdb
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\obj\Debug\MyBrushesLibrary_MarkupCompile.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\obj\Debug\MyBrushesLibrary_MarkupCompile.lref
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\obj\Debug\Brushes.baml
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\obj\Debug\MyBrushesLibrary.g.resources
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\obj\Debug\MyBrushesLibrary.Properties.Resources.resources
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\obj\Debug\MyBrushesLibrary.csproj.GenerateResource.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\obj\Debug\MyBrushesLibrary.csproj.CoreCompileInputs.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\obj\Debug\MyBrushesLibrary.dll
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\ObjectResourcesApp\MyBrushesLibrary\obj\Debug\MyBrushesLibrary.pdb

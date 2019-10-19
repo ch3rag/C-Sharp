@@ -1,0 +1,25 @@
+﻿<Window x:Class="ObjectResourcesApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObjectResourcesApp"
+        mc:Ignorable="d"
+        Title="Fun With Object Resources!" Height="450" Width="800">
+    <!--Window Wide Resouces-->
+    <Window.Resources>
+        <RadialGradientBrush x:Key="MyBrush">
+            <GradientStop Color="#FFC44EC4" Offset="0"/>
+            <GradientStop Color="#FF829CEB" Offset="1"/>
+            <GradientStop Color="#FF793879" Offset="0.66"/>
+        </RadialGradientBrush>
+    </Window.Resources>
+    <StackPanel Orientation="Horizontal">
+        <Button Name="OkButton" Click="OkButton_Click" Margin="25" Height="100" Width="100" Content="OK" FontSize="20" Background="{StaticResource MyBrush}"/>
+        <Button Name="CancelButton" Click="CancelButton_Click" Margin="25" Height="100" Width="100" Content="Cancel" FontSize="20" Background="{DynamicResource MyBrush}"></Button>
+        <Button Name="TestButton" Margin="25" Height="100" Width="100" Content="Push" FontSize="20" Background="{StaticResource LinearBrush}" Foreground="White"></Button>
+        <Button Name="PopButton" Margin="25" Height="100" Width="100" Content="Pop" FontSize="20" Background="{StaticResource BlueGradient}" Foreground="White"></Button>
+        <Button Name="BlockButton" Margin="25" Height="100" Width="100" Content="Block" FontSize="20" Background="{StaticResource BlueGradientFromLibrary}" Foreground="White"></Button>
+    </StackPanel>
+</Window>
+    

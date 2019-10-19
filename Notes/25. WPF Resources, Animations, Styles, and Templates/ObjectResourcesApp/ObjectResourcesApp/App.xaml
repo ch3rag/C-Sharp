@@ -1,0 +1,21 @@
+﻿<Application x:Class="ObjectResourcesApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ObjectResourcesApp"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!--Adding Resource Dictionaries-->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Brushes.xaml"></ResourceDictionary>
+                <!--Adding Resource Only Assembly-->
+                <ResourceDictionary Source="/MyBrushesLibrary;Component/Brushes.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+            <!--Application Level Resources -->
+            <LinearGradientBrush x:Key="LinearBrush">
+                <GradientStop Offset="0" Color="Red"></GradientStop>
+                <GradientStop Offset="1" Color="Blue"></GradientStop>
+            </LinearGradientBrush>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

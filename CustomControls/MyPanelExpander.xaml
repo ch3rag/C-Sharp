@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="MyImageProcessing.CustomControls.MyPanelExpander"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyImageProcessing.CustomControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" x:Name="CtrlMyPanelExpander">
+    <Border x:Name="BdrContainer" BorderBrush="Black" BorderThickness="2">
+    <Grid Background="WhiteSmoke" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="10*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                <ToggleButton Grid.Column="2" x:Name="TglExpand" Width="Auto" Height="Auto">
+                    <ToggleButton.Template>
+                        <ControlTemplate TargetType="{x:Type ToggleButton}">
+                            <Grid x:Name="GrdCircleArrow">
+                                <Ellipse x:Name="circle" Width="19" Height="19" Stroke="Black" StrokeThickness="2">
+                                    <Ellipse.Style>
+                                        <Style TargetType="{x:Type Ellipse}">
+                                            <Setter Property="Fill" Value="Transparent"></Setter>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding ElementName=GrdCircleArrow, Path=IsMouseOver}" Value="True">
+                                                    <Setter Property="Fill" Value="Blue"></Setter>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Ellipse.Style>
+                                </Ellipse>
+                                    <Path x:Name="arrow" Data="M1,1.5L4.5,5 8,1.5" HorizontalAlignment="Center" SnapsToDevicePixels="False" Stroke="CadetBlue" StrokeThickness="2" VerticalAlignment="Center">
+                                        <Path.LayoutTransform>
+                                            <RotateTransform Angle="0" CenterX="0.5" CenterY="0.5"/>
+                                        </Path.LayoutTransform>
+                                        <Path.Style>
+                                            <Style TargetType="{x:Type Path}">
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding ElementName=TglExpand, Path=IsChecked}" Value="True">
+                                                        <DataTrigger.EnterActions>
+                                                            <BeginStoryboard>
+                                                                <Storyboard TargetProperty="LayoutTransform.(RotateTransform.Angle)">
+                                                                    <DoubleAnimation To="-180" Duration="0:0:0.5"></DoubleAnimation>
+                                                                </Storyboard>
+                                                            </BeginStoryboard>
+                                                        </DataTrigger.EnterActions>
+                                                        <DataTrigger.ExitActions>
+                                                            <BeginStoryboard>
+                                                                <Storyboard TargetProperty="LayoutTransform.(RotateTransform.Angle)">
+                                                                    <DoubleAnimation To="0" Duration="0:0:0.5"></DoubleAnimation>
+                                                                </Storyboard>
+                                                            </BeginStoryboard>
+                                                        </DataTrigger.ExitActions>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Path.Style>
+                                    </Path>
+                                </Grid>
+                        </ControlTemplate>
+                    </ToggleButton.Template>
+                </ToggleButton>
+                    <Label x:Name="lblText" Grid.Column="0" Content="{Binding ElementName=CtrlMyPanelExpander, Path=Text}" FontSize="14" FontWeight="Black" FontFamily="Trebuchet MS" HorizontalAlignment="Center">
+                </Label>
+            </Grid>
+        </Grid>
+        <StackPanel x:Name="StkContent" Grid.Row="1">
+                <StackPanel.LayoutTransform>
+                    <ScaleTransform ScaleY="0"></ScaleTransform>
+                </StackPanel.LayoutTransform>
+            <ContentPresenter Content="{Binding ElementName=CtrlMyPanelExpander, Path=ExpanderContent}"></ContentPresenter>
+            <StackPanel.Style>
+                <Style TargetType="{x:Type StackPanel}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ElementName=TglExpand, Path=IsChecked}" Value="True">
+                            <DataTrigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard TargetProperty="LayoutTransform.(ScaleTransform.ScaleY)">
+                                        <DoubleAnimation To="1" Duration="0:0:0.4" AccelerationRatio="0.9"></DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </DataTrigger.EnterActions>
+                            <DataTrigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard TargetProperty="LayoutTransform.(ScaleTransform.ScaleY)">
+                                        <DoubleAnimation To="0" Duration="0:0:0.4" AccelerationRatio="0.9"></DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </DataTrigger.ExitActions>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </StackPanel.Style>
+        </StackPanel>
+    </Grid>
+    </Border>
+</UserControl>

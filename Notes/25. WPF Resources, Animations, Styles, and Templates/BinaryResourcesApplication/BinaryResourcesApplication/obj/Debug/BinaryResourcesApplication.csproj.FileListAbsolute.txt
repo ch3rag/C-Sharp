@@ -1,0 +1,14 @@
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\bin\Debug\BinaryResourcesApplication.exe.config
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\bin\Debug\BinaryResourcesApplication.exe
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\bin\Debug\BinaryResourcesApplication.pdb
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\MainWindow.g.cs
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\App.g.cs
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\BinaryResourcesApplication_MarkupCompile.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\BinaryResourcesApplication_MarkupCompile.lref
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\MainWindow.baml
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\BinaryResourcesApplication.g.resources
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\BinaryResourcesApplication.Properties.Resources.resources
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\BinaryResourcesApplication.csproj.GenerateResource.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\BinaryResourcesApplication.csproj.CoreCompileInputs.cache
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\BinaryResourcesApplication.exe
+C:\Users\CHIRAG\Documents\Visual Studio 2017\Projects\BinaryResourcesApplication\BinaryResourcesApplication\obj\Debug\BinaryResourcesApplication.pdb

@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MyBrushesLibrary">
+    <LinearGradientBrush x:Key="BlueGradientFromLibrary">
+        <GradientStop Offset="0" Color="LightBlue"></GradientStop>
+        <GradientStop Offset="1" Color="CadetBlue"></GradientStop>
+    </LinearGradientBrush>
+</ResourceDictionary>

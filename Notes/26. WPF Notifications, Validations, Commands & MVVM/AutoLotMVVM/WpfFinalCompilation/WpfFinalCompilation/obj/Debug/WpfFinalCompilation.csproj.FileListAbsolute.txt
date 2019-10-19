@@ -1,0 +1,37 @@
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.csprojAssemblyReference.cache
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\MainWindow.g.cs
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\App.g.cs
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation_MarkupCompile.cache
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation_MarkupCompile.lref
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\bin\Debug\WpfFinalCompilation.exe.config
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\bin\Debug\WpfFinalCompilation.exe
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\bin\Debug\WpfFinalCompilation.pdb
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\MainWindow.baml
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.g.resources
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.Properties.Resources.resources
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.csproj.GenerateResource.cache
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.csproj.CoreCompileInputs.cache
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.csproj.Fody.CopyLocal.cache
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.exe
+C:\Users\CHIRAG\source\repos\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.pdb
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.csprojAssemblyReference.cache
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\MainWindow.g.cs
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\App.g.cs
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation_MarkupCompile.cache
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation_MarkupCompile.lref
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.exe
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.pdb
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\bin\Debug\WpfFinalCompilation.exe.config
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\bin\Debug\WpfFinalCompilation.exe
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\bin\Debug\WpfFinalCompilation.pdb
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\bin\Debug\EntityFramework.dll
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\bin\Debug\EntityFramework.xml
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\MainWindow.baml
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.g.resources
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.Properties.Resources.resources
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.csproj.GenerateResource.cache
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.csproj.CoreCompileInputs.cache
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.csproj.Fody.CopyLocal.cache
+D:\Study\Github\C#\c-sharp\Notes\26. WPF Notifications, Validations, Commands & MVVM\AutoLotMVVM\WpfFinalCompilation\WpfFinalCompilation\obj\Debug\WpfFinalCompilation.csproj.CopyComplete

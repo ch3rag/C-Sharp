@@ -1,0 +1,88 @@
+﻿<Application x:Class="WpfStyles.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfStyles"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="BasicControlStyle" TargetType="Control">
+            <Setter Property="Control.FontSize" Value="14"></Setter>
+            <Setter Property="Control.Height" Value="40"></Setter>
+            <Setter Property="Control.Cursor" Value="Hand"></Setter>
+        </Style>
+        <Style x:Key="BigGreenButton" TargetType="Button">
+            <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="Height" Value="100"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Background" Value="DarkGreen"></Setter>
+            <Setter Property="Foreground" Value="Yellow"></Setter>
+        </Style>
+        <!--Default Styles-->
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="BorderThickness" Value="5"></Setter>
+            <Setter Property="BorderBrush" Value="Red"></Setter>
+            <Setter Property="FontStyle" Value="Italic"></Setter>
+            <Style.Triggers>
+                <!-- Single Condition
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="Background" Value="Yellow"></Setter>
+                </Trigger>
+                -->
+
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsFocused" Value="True"></Condition>
+                        <Condition Property="IsMouseOver" Value="True"></Condition>
+                    </MultiTrigger.Conditions>
+                    <MultiTrigger.Setters>
+                        <Setter Property="Background" Value="Yellow"></Setter>
+                    </MultiTrigger.Setters>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+        <!--Extending Styles-->
+        <Style x:Key ="TiltedButton" TargetType="Button" BasedOn="{StaticResource BigGreenButton}">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="LayoutTransform">
+                <Setter.Value>
+                    <RotateTransform Angle="20"></RotateTransform>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <!--Animating Using Styles-->
+        <Style x:Key="GrowingButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.5 0.5"></Setter>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <ScaleTransform ScaleX="1" ScaleY="1"></ScaleTransform>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Trigger.EnterActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleX)" To="1.1" Duration="0:0:0.5"></DoubleAnimation>
+                                <DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleY)" To="1.1" Duration="0:0:0.5"></DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.EnterActions>
+                    <Trigger.ExitActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleX)" Duration="0:0:0.5"></DoubleAnimation>
+                                <DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleY)" Duration="0:0:0.5"></DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.ExitActions>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        
+    </Application.Resources>
+</Application>

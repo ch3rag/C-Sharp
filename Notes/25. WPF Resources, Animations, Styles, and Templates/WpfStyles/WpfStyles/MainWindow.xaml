@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfStyles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfStyles"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <StackPanel>
+        <Label Content="Please Select A Style For This Button..."></Label>
+        <ComboBox Name="cmbStyles" Width="200" HorizontalAlignment="Left" Margin="5,0,0,0" SelectionChanged="CmbStyles_SelectionChanged">
+            <ComboBoxItem Content="GrowingButtonStyle"></ComboBoxItem>
+            <ComboBoxItem Content="TiltedButton"></ComboBoxItem>
+            <ComboBoxItem Content="BigGreenButton"></ComboBoxItem>
+            <ComboBoxItem Content="BasicControlStyle"></ComboBoxItem>
+        </ComboBox>
+        <Button Name="btnChangableStyle" Content="{Binding ElementName=cmbStyles, Path=Text}" Width="250" HorizontalAlignment="Left" Margin="5,5,0,0"></Button>
+        <Label Name="lblInfo" Content="This Style Is Boring.." Style="{StaticResource BasicControlStyle}" Width="150"></Label>
+        <Button Name="btnTestButton" Content="Yes, But We Are Reusing Settings!" Style="{StaticResource BasicControlStyle}" Width="250" Cursor="Help"></Button>
+        <Button Name="btnAnotherButton" Content="OK!" Margin="0,5,0,0" Style="{StaticResource BigGreenButton}" Width="250"></Button>
+        <TextBox Name="txtTestTextBox" Width="350" Margin="5"></TextBox>
+        <TextBox Name="txtTestTextBox2" Width="150" Margin="5" BorderBrush="Aqua"></TextBox>
+        <TextBox Name="txtTestTextBox3" Width="450" Style="{x:Null}" Margin="5" BorderBrush="Black"></TextBox>
+        <Button Name="btnTiltedBigGreenButton" Style="{StaticResource TiltedButton}" Content="Tilted" Width="250" Cursor="Help"></Button>
+        <Button Name="btnAnimatedButton" Style="{StaticResource GrowingButtonStyle}" Content="Grow.." Width="250"></Button>
+    </StackPanel>
+</Window>
