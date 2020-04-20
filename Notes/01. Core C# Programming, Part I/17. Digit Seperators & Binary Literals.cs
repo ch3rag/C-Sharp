@@ -14,7 +14,7 @@ namespace Features {
 
             // BINARY LITERALS
             Console.WriteLine(0b0001_0000);         // 16
-			Console.WriteLine(0b0000_1111);         // 15
+	    Console.WriteLine(0b0000_1111);         // 15
 
             Console.ReadKey();
 
